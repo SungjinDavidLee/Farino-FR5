@@ -1,0 +1,16 @@
+# The validated project used the existing Conda environment:
+#   conda activate openvla_py310
+#
+# Export the exact environment on the Thor when reproducibility is required:
+#   conda env export --no-builds > environment.yml
+#   pip freeze > requirements-lock.txt
+
+numpy
+opencv-python
+Pillow
+pyrealsense2
+pyserial
+torch
+torchvision
+transformers
+ultralytics

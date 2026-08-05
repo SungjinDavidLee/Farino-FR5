@@ -1,0 +1,132 @@
+{
+  "calibration_type": "camera_visible_can_workspace_v1",
+  "robot_motion": false,
+  "samples_per_position": 20,
+  "positions": {
+    "CENTER": {
+      "object_base_xyz_mm": [
+        115.025,
+        723.895,
+        193.9
+      ],
+      "std_mm": [
+        0.351,
+        0.022,
+        0.0
+      ],
+      "range_mm": [
+        1.1,
+        0.1,
+        0.0
+      ],
+      "bbox_center_px": [
+        628.55,
+        384.0
+      ],
+      "sample_count": 20
+    },
+    "LEFT": {
+      "object_base_xyz_mm": [
+        64.77,
+        725.105,
+        192.9
+      ],
+      "std_mm": [
+        0.134,
+        0.274,
+        0.0
+      ],
+      "range_mm": [
+        0.6,
+        1.1,
+        0.0
+      ],
+      "bbox_center_px": [
+        537.95,
+        383.2
+      ],
+      "sample_count": 20
+    },
+    "RIGHT": {
+      "object_base_xyz_mm": [
+        164.265,
+        734.395,
+        197.95
+      ],
+      "std_mm": [
+        0.504,
+        0.383,
+        0.224
+      ],
+      "range_mm": [
+        1.8,
+        1.2,
+        1.0
+      ],
+      "bbox_center_px": [
+        718.15,
+        363.35
+      ],
+      "sample_count": 20
+    },
+    "TOP": {
+      "object_base_xyz_mm": [
+        107.28,
+        787.86,
+        200.25
+      ],
+      "std_mm": [
+        0.115,
+        0.264,
+        0.51
+      ],
+      "range_mm": [
+        0.6,
+        1.2,
+        1.0
+      ],
+      "bbox_center_px": [
+        611.95,
+        266.9
+      ],
+      "sample_count": 20
+    },
+    "BOTTOM": {
+      "object_base_xyz_mm": [
+        122.59,
+        693.625,
+        191.9
+      ],
+      "std_mm": [
+        0.22,
+        0.112,
+        0.0
+      ],
+      "range_mm": [
+        0.6,
+        0.5,
+        0.0
+      ],
+      "bbox_center_px": [
+        643.15,
+        437.95
+      ],
+      "sample_count": 20
+    }
+  },
+  "verified_object_bounds_mm": {
+    "x_min": 54.769999999999996,
+    "x_max": 174.265,
+    "y_min": 683.625,
+    "y_max": 797.86,
+    "z_min": 186.9,
+    "z_max": 205.25
+  },
+  "grasp_xy_offset_mm": [
+    0.002,
+    -17.0
+  ],
+  "final_grasp_z_mm": 168.0,
+  "transfer_dx_mm": 150.0,
+  "notes": "Bounds are valid only for the same camera mount, TCP/tool frame, observation pose, table plane, can type, and lighting conditions."
+}
