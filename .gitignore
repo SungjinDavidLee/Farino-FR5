@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments and editors
+.env
+.venv/
+venv/
+.vscode/
+.idea/
+
+# Generated runtime and results
+openvla_pick_runtime.json
+openvla_action_execution_metrics.json
+openvla_direct_action_1mm_result.json
+*.log
+outputs/
+results/
+
+# Local real-hardware calibration
+observation_pose.json
+can_workspace_calibration.json
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Large datasets and caches
+datasets/
+checkpoints/
+cache/
+huggingface/
